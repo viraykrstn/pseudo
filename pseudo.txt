@@ -1,0 +1,5 @@
+How to get the Mask of the IP Address, is to analyze the slash to start.
+Then, you need to convert the IP address and the mask that you got into binary to get the subnet mask.
+Next, to get the subnet id you just simply copy all the odd numbers (number 1) in the mask.
+After that, focus on the host id for you to get the minimum ip by just adding 1 to its value.
+And for the maximum ip, just change the host id of the subnet mask into zeroes.
